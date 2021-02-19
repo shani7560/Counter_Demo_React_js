@@ -1,0 +1,75 @@
+.background1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #7a80ff;
+
+  min-height: 100vh;
+}
+.background {
+  display: flex;
+  background-color: #979bff;
+  border-radius: 75px;
+}
+.plus_btn {
+  background-color: #979bff;
+  border: none;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 166px 0px 0px 164px;
+  color: #feffff;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+  cursor: pointer;
+}
+.sub_btn {
+  background-color: #979bff;
+  border: none;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 0 46px 44px 0;
+  color: #feffff;
+  align-items: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  cursor: pointer;
+}
+.count_btn {
+  border: none;
+  background-color: #feffff;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  color: #979bff;
+  align-items: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  cursor: pointer;
+}
+.reset_btn {
+  border: none;
+  background-color: #feffff;
+  margin-left: 7%;
+  margin-top: 7px;
+  border-radius: 20px;
+  width: 97px;
+  height: 37px;
+  color: #979bff;
+  align-items: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  cursor: pointer;
+}
